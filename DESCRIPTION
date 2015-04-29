@@ -3,10 +3,11 @@ Type: Package
 Title: Arrange Multiple Plots in a Grid
 Version: 0.1
 Date: 2015-04-28
-Authors@R: person("Matthew", "Lincoln",
-  email = "mlincol1@umd.edu", role = c("aut", "cre"))
+Authors@R: c(
+  person("Matthew", "Lincoln", email = "mlincol1@umd.edu", role = "cre"),
+  person("Winston", "Chang", role = "aut"))
 Description: A single-function package for easily assembing multiple
   ggplot2 plots into a grid output.
 Imports: grid
-License: MIT
+License: CC0
 LazyData: TRUE
